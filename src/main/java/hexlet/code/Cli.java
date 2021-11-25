@@ -6,10 +6,9 @@ class Cli {
     public static void greeting() {
 
         Scanner scan = new Scanner(System.in);
+        System.out.print("May I have your name? ");
         String answer = scan.nextLine();
-		String userName = answer;
-		System.out.println("May I have your name? " + userName);
-		System.out.println("Hello, " + userName);
+        System.out.println("Hello, " + answer + "!");
 
     }
 
